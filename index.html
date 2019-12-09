@@ -1,56 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-  <title>Main Page</title>
-  <style>
-  html {
-  background: url(images/atot.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  }
-
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-  h1{
-    text-align: center;
-    font-family: 'Audiowide', cursive;
-    font-size: 40px;
-    color: black
-  }
-  p{
-    font-family: 'Indie Flower', cursive;
-    font-size: 30px;
-    color: Black
-  }
-
-
-
-  a{
-    font-family: 'Indie Flower', cursive;
-    font-size: 25px;
-    color: Black
-  }
-  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="css/style.css">
+  <!-- =======================================================
+    Theme Name: Hidayah
+    Theme URL: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
+<style>
+ body {
+  background-image: url('img/bg.jpg');
+  background-repeat: no-repeat;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 55px;
+    color: white;
+    
+} 
+h3 {
+    text-align: center;
+    margin: 35px auto;
+    font-size: 25px;
+    color:white;
+
+
+
+    }
+table {
+    border: 5px white;
+    padding: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin: 50px auto;
+    
+}
+    td {
+      border: 5px solid white;
+    padding: 5px;
+    margin:10px;
+   
+    }
+} 
+</style>
 <body>
-  <img src="images/VectorCharacter.png">
-  <h1 style="background-color:White;"> This is the main page. </h1>
-  <p style="color:Black;"> This page gives you access to the other pages. </p>
-<ul>
-  <li><a href="homework1.html">Here is a link to my homework assignment</li></p>
-  <li><a href="homework2.html">Here is a link to my homework #2</li></p>
-  <li><a href="poster.html">Here is a link to my poster for class</li></p>
-   <li><a href="video.html">Here is a link to my video assignment</li></p>
-  <li><a href="final.html">Here is a link to my final assignment</li></p>
-</ul>
+   <header>
+    <div class="main-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">			Shakim Matthew
+						</a></h1>
+          </div>
+          <div class="col-md-8">
+            <div class="dropdown">
+              <ul class="nav nav-pills">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="blog.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="slider text-center">
+    <img src="img/img2.png" alt="" height="300" />
+
+  </div>
+
+
+  <h2> Welcome to my website! </h2>
+  <h3> Here are my favorite projects </h3>
+  <table>
+    <tr>
+    <td><img src="img/bookimg.png"class="center" height="600"></td>
+    <td><img src="img/poster.jpg"class="center" height="600"></td>
+  </tr>
+</table>
+
+  <!-- column content -->
+  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
+
 </body>
+
 </html>
